@@ -18,11 +18,10 @@ h3{
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width:100%;
     height: auto;
-    align-items: center;
-    padding: 3em 0 0;
-    margin-bottom: 0;
+    padding: 1vw 0;
 }
 
 .header__logo{
@@ -88,17 +87,20 @@ h3{
     flex-direction: column;
     align-items: center;
     margin:5%;
+    height: 50%;
 }
 
 .info__subtitle{
-    transform: translate(-1160%);
+    margin-left: -65vw;
+    display: block;
 }
 
 .info__title{
-    transform: translate(-600%);
+    margin-left: -62vw;
     font-size: 1.3vw;
     margin-bottom: 0;
     color: #747474;
+    display: block;
 }
 
 .info__list{
@@ -119,7 +121,7 @@ h3{
     display: block;
     position: absolute;
     left: 50%;
-    top:-20%;
+    top:-2vw;
     transform: translate(-50%);
     width: 100%;
     height: 2px;
@@ -325,6 +327,7 @@ h3{
     margin-top: -8vw;
     padding-top: 5vw;
     background-color: #e8e8e8;;
+    width: 100%;
 }
 
 .link__subtitle{
@@ -521,4 +524,7 @@ table th {
     justify-content: center;
     font-size: 1vw;
     margin:2vw;
+    background-color: #e8e8e8;
+    padding: 2vw 0;
+    width: 100%;
 }
